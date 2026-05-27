@@ -24,9 +24,12 @@
     logger.js
 
 # 5.- Creacion de una ruta
+    -Crearemos un usuario con datos parseados (meterlos a 
+    la mala) en la ruta. La ruta la usaremos para manejar las URL.
     users.js
 
 # 6.- Creacion del main
+    definimos el cerebro de la aplicacion 
     app.js
 
 # 7.-
