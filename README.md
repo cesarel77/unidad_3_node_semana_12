@@ -4,7 +4,11 @@
     -crear un proyecto con node js, con el siguiente comando en la terminal:
     npm init -y 
 
-# 2.-instalar express
+# 1.1.- cuando descargamos el proyecto de otro lado
+    vamos a usar el siguiente comando para instalar las dependencias de NodeMules
+    npm i
+
+# 2.-instalar express(para trabajar javascript como servidor)
     -Realizar la instalacion de un paquete de desarrollo:
     npm install express o npm i express
    
