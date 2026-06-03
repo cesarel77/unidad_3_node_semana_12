@@ -6,7 +6,7 @@ const router = express.Router();
 //base de datos temporal en memoria
 let users = [
     {id: 1, nombre: 'Cesar', edad: 33 },
-    {id: 2, nombre: 'Franco', edad: 3 },
+    {id: 2, nombre: 'Franco zzz', edad: 3 },
     {id: 3, nombre: 'Salvador', edad: 99 },
 ];
 

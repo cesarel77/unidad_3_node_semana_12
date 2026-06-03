@@ -1,21 +1,25 @@
 # unidad_3_node_semana_12
 
-# 1.-Crear el proyecto en node
+# 1.-Crear el proyecto en node:
     -crear un proyecto con node js, con el siguiente comando en la terminal:
+
     npm init -y 
 
-# 1.1.- cuando descargamos el proyecto de otro lado
+# 1.1.- cuando descargamos el proyecto de otro lado:
     vamos a usar el siguiente comando para instalar las dependencias de NodeMules
+
     npm i
 
-# 2.-instalar express(para trabajar javascript como servidor)
+# 2.-instalar express(para trabajar javascript como servidor):
     -Realizar la instalacion de un paquete de desarrollo:
+
     npm install express o npm i express
    
 # 3.-crear estructura de carpetas para el proyecto:
     -Primero definimos la carpeta madre (src)
     -Crear el main de la aplicacion, que es el app.js
     -Creamos dos carpetas, una para el router (definir rutas) y la otra es para los middleware (puente)
+
     src/
     ----app.js
     ----routes/
@@ -23,27 +27,54 @@
     ----middlewares/
     ------------logger.js
 
-# 4.- Creacion de logger.js
+# 4.- Creacion de logger.js:
     -Creamos el puentes de la aplicacion
+
     logger.js
 
-# 5.- Creacion de una ruta
+# 5.- Creacion de una ruta:
     -Crearemos un usuario con datos parseados (meterlos a 
     la mala) en la ruta. La ruta la usaremos para manejar las URL.
+
     users.js
 
-# 6.- Creacion del main
-    definimos el cerebro de la aplicacion 
+# 6.- Creacion del main:
+    definimos el cerebro de la aplicacion
+
     app.js
 
-# 7.-
+# 7.- levantamos el servidor con el comando:
+    Recordar que node es palabra reservada , el
+    src es la ubicacion de la carpeta y el app.js es el main
 
-# 8.-
+    node src/app.js
 
-# 9.-
+# 8.- verificamos las rutas cambiando el puerto:
+    ademas agregamos una constante para reemplazar 
+    el numero del puerto 
 
-# 10.-
+    const PORT = 3002;
 
-# 11.-
+# 9.- Agregamos mas usuarios en las rutas:
+     Para esto creamos un array con dos usuarios nuevos
+     en src/routes/users.js
 
-# 12.-
+# 10.- Instalacion de NodeMon:
+     Este pakage hace que no tengamos que
+     bajar y levantar el servidor, se instala 
+     con el siguiente comando:
+
+     npm i -D nodemon
+
+# 11.- Cambiamos el metodo de levantar el servidor:
+      Ahora estamos ejecutando un script, esto es gracias a "nodemon"
+
+      npm run dev
+
+# 12.- TAREA CON 1 DECIMA 
+      CREAR UN ROUTER LLAMADO PERSONAJES_DE_MARVEL_QUE_NO_SALEN_EN_PELICULAS_DE_MARVEL.JS, Y CREAR SU RUTA RESPECTIVA
+      EN APP.JS 
+      JUNTO CON UN ARRAY QUE CONTENGA CON UN 4 VALORES QUE
+      CONTENGA  {ID, NOMBRE, PODER, EDAD_RELATIVA}
+
+# 13.-
