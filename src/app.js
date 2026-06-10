@@ -2,7 +2,7 @@
 const express = require('express');
 const logger = require('./middlewares/logger');
 const usersRouter = require('./routes/users');
-const personajes_no_peliculasRouter = require('./routes/personajes_de_marvel_que_no_salen_en_peliculas_de_marvel');
+//const personajes_no_peliculasRouter = require('./routes/personajes_de_marvel_que_no_salen_en_peliculas_de_marvel');
 const app = express();
 
 //middlewares glovales
@@ -12,7 +12,7 @@ app.use(logger);
 
 
 //rutas
-app.use('/usuario', personajes_no_peliculasRouter);
+app.use('/usuario', usersRouter);
 
 const PORT = 3002;
 
